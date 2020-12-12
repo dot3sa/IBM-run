@@ -19,14 +19,10 @@ IBM Cloud 10天不操作就会关机，所以我们需要 十天内对其重启�
 点击又上角的命令行
 
 在这一步我们主要是记录4个值
-
 IBM_ACCOUNT // IBM Cloud的登录邮箱和密码
 IBM_APP_NAME // 应用的名称
 REGION_NUM // 区域编码
 RESOURSE_ID // 资源组ID
-具体后面会一步一步完成
-
-
 
 进入命令行先执行
 
