@@ -2,7 +2,7 @@ name: IBM Cloud Auto Restart
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron: '0 21 * * *'
 
