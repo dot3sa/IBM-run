@@ -154,7 +154,7 @@ $.log(`转盘双倍: +${doublerotary}青豆 剩余${rotaryres.data.doubleNum}次
 
 
 function GetCookie() {
-   if ($request && $request.method != `OPTIONS`&& $request.url.match(/\/NewTaskIos\/(sign|getSign)/)) {
+   if ($request && $request.method != `OPTIONS`&& $request.url.match(/\/NewUserTask\/(info|Sign)/)) {
    const signheaderVal = JSON.stringify($request.headers)
     if (signheaderVal)        $.setdata(signheaderVal,'youthheader_zq')
     $.log(`${$.name} 获取Cookie: 成功,signheaderVal: ${signheaderVal}`)
